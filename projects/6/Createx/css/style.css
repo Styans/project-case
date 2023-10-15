@@ -1,0 +1,116 @@
+
+/* ============================== GLOBAL ============================== */
+/* ============================== GLOBAL ============================== */
+
+/* html, body {
+  font-family: Lato, sans-serif;
+  color: #424551;
+  line-height: 160%;
+}
+
+.wrapper {
+  min-height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1260px;
+  padding: 0 15px;
+  margin: 0 auto;
+  height: 100%;
+} */
+* {
+  margin: 0 ;
+  padding: 0;
+  font-family: 'Manrope', sans-serif;}
+html , body {
+	font-size: 17px;
+	color: #333;
+  scroll-behavior: smooth;
+}
+.container {
+  max-width: 1260px;
+  padding: 0 15px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+/* ==================================================== */
+/* ==================================================== */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+.com_input {
+  height: 200px;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+.action_page {
+  display: flex;
+  justify-content: center;
+  padding-top: 110px;
+}
+
+/* Установите стиль для всех кнопок */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0px 0px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  border-radius: 10px;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Дополнительные стили для кнопки "Отмена" */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Поплавок отмена и кнопки регистрации и добавить равную ширину */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 45%;
+}
+
+/* Добавить отступы к элементам контейнера */
+.regis_box {
+  max-width: 750px;
+  margin-right: 20px;
+}
+
+/* Очистить поплавки */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Измените стили для кнопки отмены и кнопки регистрации на дополнительных маленьких экранах */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}
